@@ -12,6 +12,11 @@ html {
   margin: 4rem 0;
 }
 
+.title a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .blog {
   border: black 1px solid;
   padding: 2rem;
@@ -25,4 +30,8 @@ html {
 
 .blog__body {
   margin-bottom: 0;
+}
+
+.blog__btn {
+  margin-top: 2rem;
 }
