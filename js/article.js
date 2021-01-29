@@ -1,4 +1,4 @@
-(function() {
+(async function() {
   const articleId = getArticleId()
   const articleData = await getArticleData(articleId)
   displayArticle(articleData)
