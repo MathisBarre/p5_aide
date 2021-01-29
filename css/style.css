@@ -27,11 +27,3 @@ html {
   text-transform: capitalize;
   margin-top: 0;
 }
-
-.blog__body {
-  margin-bottom: 0;
-}
-
-.blog__btn {
-  margin-top: 2rem;
-}
