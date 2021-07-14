@@ -1,6 +1,6 @@
 (async function() {
   const articles = await getArticles()
-
+  
   for (article of articles) {
     displayArticle(article)
   }
@@ -25,6 +25,7 @@ function displayArticle(article) {
 
   cloneElt.getElementById("blog__title").textContent = article.title
   cloneElt.getElementById("blog__body").textContent = article.body
+  cloneElt.getElementById("blog__link").href += "?id=" + article.id
 
   document.getElementById("main").appendChild(cloneElt)
 }
