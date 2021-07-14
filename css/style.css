@@ -27,3 +27,8 @@ html {
   text-transform: capitalize;
   margin-top: 0;
 }
+
+.backLink {
+  margin-bottom: 1rem;
+  display: block;
+}
